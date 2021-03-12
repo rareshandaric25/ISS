@@ -5,7 +5,6 @@ Dupa inregistrare utilizatorul va primi un cod unic de identificare a acestuia �
 Dupa autentificare, acesta vede lista exemplarelor disponibile în acel moment precum si o mica descriere a fiecarei carti.
 Abonatul poate imprumuta unul sau mai multe exemplare. 
 Pentru un abonat, se retin în sistem informații legate de cnp, nume, adresa, telefon, codul unic si codul cartii.
-Fiecare carte poate exista în unul sau mai multe exemplare, identificate prin coduri unice. 
-Dupa autentificare, acesta vede lista exemplarelor disponibile în acel moment si poate imprumuta unul sau mai multe. 
+Fiecare carte poate exista în unul sau mai multe exemplare, identificate prin coduri unice.  
 Pentru restituirea cartilor, exista un singur punct de lucru, deservit de un bibliotecar. 
 Dupa fiecare împrumut/restituire, toți utilizatorii terminalelor bibliotecii văd lista actualizata a cartilor disponibile. 
