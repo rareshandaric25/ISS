@@ -1365,11 +1365,11 @@
 												"$ref": "AAAAAAF4JSqWsrQwKWE="
 											},
 											"font": "Arial;13;1",
-											"left": 308,
+											"left": 314,
 											"top": 443.5,
-											"width": 101,
+											"width": 128,
 											"height": 13,
-											"text": "Actualizare Date"
+											"text": "Vizualizare Rezervari"
 										},
 										{
 											"_type": "LabelView",
@@ -1400,9 +1400,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 303,
+									"left": 309,
 									"top": 436.5,
-									"width": 111.14990234375,
+									"width": 139.111328125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4JSqWsrQxSrc="
@@ -1502,7 +1502,7 @@
 							"containerChangeable": true,
 							"left": 280,
 							"top": 432,
-							"width": 157,
+							"width": 196,
 							"height": 35,
 							"nameCompartment": {
 								"$ref": "AAAAAAF4JSqWsrQwKWE="
@@ -1546,8 +1546,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 320,
-									"top": 397,
+									"left": 330,
+									"top": 398,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1566,8 +1566,8 @@
 										"$ref": "AAAAAAF4JSt9vLUpKHU="
 									},
 									"font": "Arial;13;0",
-									"left": 279,
-									"top": 403,
+									"left": 290,
+									"top": 406,
 									"width": 55.65625,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1589,8 +1589,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 347,
-									"top": 384,
+									"left": 355,
+									"top": 383,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1608,7 +1608,7 @@
 								"$ref": "AAAAAAF4JSqWsrQvDM0="
 							},
 							"lineStyle": 1,
-							"points": "350:431;318:363",
+							"points": "365:431;322:363",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF4JSt9vbUsobs="
@@ -2251,7 +2251,7 @@
 											"top": 531.5,
 											"width": 147,
 											"height": 13,
-											"text": "Afisare Date Actualizate"
+											"text": "Actualizare date"
 										},
 										{
 											"_type": "LabelView",
@@ -2284,7 +2284,7 @@
 									"font": "Arial;13;0",
 									"left": 401,
 									"top": 524.5,
-									"width": 158.10986328125,
+									"width": 157,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF4JTGi7rttas4="
@@ -2428,8 +2428,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 409,
-									"top": 499,
+									"left": 418,
+									"top": 498,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -2448,8 +2448,8 @@
 										"$ref": "AAAAAAF4JTHjDbvy0Zk="
 									},
 									"font": "Arial;13;0",
-									"left": 374,
-									"top": 511,
+									"left": 382,
+									"top": 509,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -2471,8 +2471,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 426,
-									"top": 474,
+									"left": 437,
+									"top": 475,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -2490,7 +2490,7 @@
 								"$ref": "AAAAAAF4JTGi7rtrpl8="
 							},
 							"lineStyle": 1,
-							"points": "454:519;383:467",
+							"points": "458:519;398:467",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF4JTHjDbv1p5o="
@@ -2836,19 +2836,6 @@
 					"name": "Imprumutare Carte",
 					"ownedElements": [
 						{
-							"_type": "UMLInclude",
-							"_id": "AAAAAAF4JSWpz7I2Zr8=",
-							"_parent": {
-								"$ref": "AAAAAAF4JSUOP7HNNdM="
-							},
-							"source": {
-								"$ref": "AAAAAAF4JSUOP7HNNdM="
-							},
-							"target": {
-								"$ref": "AAAAAAF4JSJQHLBaU+Y="
-							}
-						},
-						{
 							"_type": "UMLExtend",
 							"_id": "AAAAAAF4acTXHhvpHz8=",
 							"_parent": {
@@ -2920,7 +2907,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Actualizare Date",
+					"name": "Vizualizare Rezervari",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
@@ -2979,7 +2966,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Afisare Date Actualizate",
+					"name": "Actualizare date",
 					"ownedElements": [
 						{
 							"_type": "UMLExtend",
