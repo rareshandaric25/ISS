@@ -1,0 +1,12 @@
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\Iss.exe.config
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\Iss.exe
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\Iss.pdb
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csprojAssemblyReference.cache
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.frmRegister.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.frmHome.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.frmLogin.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.Properties.Resources.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csproj.GenerateResource.cache
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csproj.CoreCompileInputs.cache
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.exe
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.pdb
