@@ -10,3 +10,13 @@ C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csproj.GenerateResour
 C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csproj.CoreCompileInputs.cache
 C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.exe
 C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.pdb
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\MySql.Data.dll
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\BouncyCastle.Crypto.dll
+C:\LicentaGit\ISS\App\Iss\Iss\bin\Debug\Renci.SshNet.dll
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\LogIn and Register.csproj.CopyComplete
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.AddBooks.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.ViewBooks.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.ViewUsers.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.AddUser.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.frmUser.resources
+C:\LicentaGit\ISS\App\Iss\Iss\obj\Debug\Iss.ViewBooksUser.resources

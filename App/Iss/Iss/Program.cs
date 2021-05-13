@@ -16,7 +16,7 @@ namespace Iss
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmRegister());
+            Application.Run(new frmUser());
         }
     }
 }

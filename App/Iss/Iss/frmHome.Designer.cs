@@ -29,150 +29,156 @@ namespace Iss
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.booksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addNewBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewBooToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.utlizatoriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewUserInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issueBooksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.booksDetalisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // menuStrip1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(60, 40);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 70);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Home";
-            this.button1.UseVisualStyleBackColor = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.menuStrip1.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.booksToolStripMenuItem,
+            this.utlizatoriToolStripMenuItem,
+            this.issueBooksToolStripMenuItem,
+            this.booksDetalisToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(871, 49);
+            this.menuStrip1.TabIndex = 5;
+            this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // button2
+            // booksToolStripMenuItem
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(253, 40);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 70);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Books";
-            this.button2.UseVisualStyleBackColor = false;
+            this.booksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addNewBookToolStripMenuItem,
+            this.viewBooToolStripMenuItem});
+            this.booksToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.booksToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.booksToolStripMenuItem.Name = "booksToolStripMenuItem";
+            this.booksToolStripMenuItem.Size = new System.Drawing.Size(117, 45);
+            this.booksToolStripMenuItem.Text = "Books";
+            this.booksToolStripMenuItem.Click += new System.EventHandler(this.booksToolStripMenuItem_Click);
             // 
-            // button3
+            // addNewBookToolStripMenuItem
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(450, 40);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 70);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "My Books";
-            this.button3.UseVisualStyleBackColor = false;
+            this.addNewBookToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.addNewBookToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
+            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.addNewBookToolStripMenuItem.Text = "Add New Book";
+            this.addNewBookToolStripMenuItem.Click += new System.EventHandler(this.addNewBookToolStripMenuItem_Click);
             // 
-            // button4
+            // viewBooToolStripMenuItem
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(647, 40);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(148, 70);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Log Out";
-            this.button4.UseVisualStyleBackColor = false;
+            this.viewBooToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.viewBooToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.viewBooToolStripMenuItem.Name = "viewBooToolStripMenuItem";
+            this.viewBooToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
+            this.viewBooToolStripMenuItem.Text = "View Books";
+            this.viewBooToolStripMenuItem.Click += new System.EventHandler(this.viewBooToolStripMenuItem_Click);
             // 
-            // dataGridView1
+            // utlizatoriToolStripMenuItem
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(80, 162);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(552, 350);
-            this.dataGridView1.TabIndex = 1;
+            this.utlizatoriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addToolStripMenuItem,
+            this.viewUserInfoToolStripMenuItem});
+            this.utlizatoriToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.utlizatoriToolStripMenuItem.Name = "utlizatoriToolStripMenuItem";
+            this.utlizatoriToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
+            this.utlizatoriToolStripMenuItem.Text = "Users";
             // 
-            // button5
+            // addToolStripMenuItem
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button5.Location = new System.Drawing.Point(651, 450);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(144, 51);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Borrow";
-            this.button5.UseVisualStyleBackColor = false;
+            this.addToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.addToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
+            this.addToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.addToolStripMenuItem.Text = "Add User";
+            this.addToolStripMenuItem.Click += new System.EventHandler(this.addToolStripMenuItem_Click);
             // 
-            // txtQuantity
+            // viewUserInfoToolStripMenuItem
             // 
-            this.txtQuantity.Location = new System.Drawing.Point(651, 374);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(144, 30);
-            this.txtQuantity.TabIndex = 3;
+            this.viewUserInfoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.viewUserInfoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.viewUserInfoToolStripMenuItem.Name = "viewUserInfoToolStripMenuItem";
+            this.viewUserInfoToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
+            this.viewUserInfoToolStripMenuItem.Text = "View User Info";
+            this.viewUserInfoToolStripMenuItem.Click += new System.EventHandler(this.viewUserInfoToolStripMenuItem_Click);
             // 
-            // label1
+            // issueBooksToolStripMenuItem
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.label1.Location = new System.Drawing.Point(647, 348);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 23);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Quantity";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.issueBooksToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.issueBooksToolStripMenuItem.Name = "issueBooksToolStripMenuItem";
+            this.issueBooksToolStripMenuItem.Size = new System.Drawing.Size(99, 24);
+            this.issueBooksToolStripMenuItem.Text = "Issue Books";
             // 
-            // button6
+            // booksDetalisToolStripMenuItem
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button6.Location = new System.Drawing.Point(651, 162);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(144, 51);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "Info";
-            this.button6.UseVisualStyleBackColor = false;
+            this.booksDetalisToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.booksDetalisToolStripMenuItem.Name = "booksDetalisToolStripMenuItem";
+            this.booksDetalisToolStripMenuItem.Size = new System.Drawing.Size(113, 24);
+            this.booksDetalisToolStripMenuItem.Text = "Books Detalis";
+            // 
+            // btnClose
+            // 
+            this.btnClose.BackColor = System.Drawing.Color.White;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(84)))), ((int)(((byte)(174)))));
+            this.btnClose.Location = new System.Drawing.Point(822, 0);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(49, 41);
+            this.btnClose.TabIndex = 19;
+            this.btnClose.Text = "X";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(870, 647);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtQuantity);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(871, 647);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(165)))), ((int)(((byte)(169)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmHome";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.frmHome_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox txtQuantity;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem booksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addNewBookToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewBooToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem utlizatoriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewUserInfoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem issueBooksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem booksDetalisToolStripMenuItem;
+        private System.Windows.Forms.Button btnClose;
     }
 }
