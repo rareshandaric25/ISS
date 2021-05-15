@@ -142,6 +142,8 @@ namespace Iss
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);
+
+                ViewBooks_Load(this, null);
             }
         }
     }
